@@ -1,0 +1,19 @@
+.form {
+}
+.fieldset {
+  border: 1px solid $color8;
+  border-radius: 8px;
+  display: flex;
+  width: 500px;
+  height: 61px;
+  box-sizing: border-box;
+}
+.legend {
+  color: $color7;
+  font-size: 12px;
+  line-height: 12px;
+}
+.input {
+  width: 100%;
+  border: none;
+}

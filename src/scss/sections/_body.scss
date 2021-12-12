@@ -1,0 +1,17 @@
+.body {
+  margin: 0 auto;
+  font-family: $font-family;
+  position: relative;
+  max-width: 1920px;
+  background-color: $color2;
+  padding-left: 76px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  transition: $transition;
+  min-width: 700px;
+  @media #{$screen-desktop} {
+    padding-left: 280px;
+  }
+}

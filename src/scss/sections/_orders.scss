@@ -1,0 +1,91 @@
+.orders {
+  margin: 0 24px;
+  background-color: $color1;
+  border-radius: 8px;
+  min-width: 700px;
+  &__title {
+    padding: 32px 24px 24px;
+    margin: 0;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 137.5%;
+    color: $color3;
+  }
+  &__table-list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid $color5;
+  }
+  &__table-list_title {
+    background-color: $color5;
+    border-bottom: none;
+  }
+  &__table-title-item {
+    width: 20%;
+    list-style-type: none;
+    text-transform: uppercase;
+    margin: 10px 16px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 250%;
+    align-items: center;
+    letter-spacing: 0.5px;
+    color: $color3;
+  }
+  &__table-item {
+    width: 20%;
+    list-style-type: none;
+    overflow: scroll;
+    white-space: nowrap;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+  &__table-item {
+    margin: 16px;
+    display: flex;
+    align-items: center;
+    height: 40px;
+  }
+  &__table-name {
+    margin: 0 0 0 16px;
+  }
+  &__table-text {
+    font-size: 14px;
+    line-height: 157%;
+  }
+  &__icon {
+    color: $color7;
+    transition: $transition;
+    &:hover {
+      @include button-hover;
+    }
+  }
+  &__navigation {
+    display: flex;
+    justify-content: end;
+    padding: 18px 0;
+  }
+  &__page {
+    font-size: 12px;
+    line-height: 166%;
+    color: $color7;
+    margin: 0 8px 0 0;
+  }
+  &__page-number {
+    margin: 0;
+    font-size: 12px;
+    line-height: 19px;
+    letter-spacing: 0.3px;
+    color: $color3;
+    margin-right: 10px;
+  }
+  &__total-sheet {
+    font-size: 12px;
+    line-height: 166%;
+    color: $color3;
+    margin: 0 26px;
+  }
+}

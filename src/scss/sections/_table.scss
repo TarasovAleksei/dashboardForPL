@@ -1,0 +1,13 @@
+.table {
+  &__list {
+    margin: 0;
+    padding: 0;
+    @include flex-center;
+    flex-direction: column;
+  }
+
+  &__item {
+    list-style-type: none;
+    width: 100%;
+  }
+}

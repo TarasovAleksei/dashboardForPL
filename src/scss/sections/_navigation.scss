@@ -1,0 +1,13 @@
+.navigation {
+  &__list {
+    margin: 0;
+    padding: 24px 13px;
+  }
+  &__item {
+    list-style-type: none;
+    margin-bottom: 4px;
+  }
+  &__item:last-child {
+    margin-bottom: 0;
+  }
+}

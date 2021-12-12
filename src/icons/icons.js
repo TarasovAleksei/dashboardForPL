@@ -1,0 +1,16 @@
+import './svg/customers.svg';
+import './svg/ring.svg';
+import './svg/search.svg';
+import './svg/button-export.svg';
+import './svg/button-import.svg';
+import './svg/dashboard.svg';
+import './svg/products.svg';
+import './svg/account.svg';
+import './svg/settings.svg';
+import './svg/login.svg';
+import './svg/register.svg';
+import './svg/error.svg';
+import './svg/button-link.svg';
+import './svg/arrow-down.svg';
+import './svg/button-previous.svg';
+import './svg/cursor-down.svg';

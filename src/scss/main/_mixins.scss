@@ -1,0 +1,19 @@
+@mixin flex-start {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+@mixin flex-end {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+@mixin flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@mixin button-hover {
+opacity: .5;
+cursor: pointer;
+}

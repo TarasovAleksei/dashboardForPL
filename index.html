@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>dashboard-perlab</title>
+    <link rel="stylesheet" href="dist/css/style.css"/>
+</head>
+<body class="body">
+    <aside class="aside">
+        <div class="aside__block">
+            <nav class="navigation">
+                <ul class="navigation__list">
+                    <li class="navigation__item">
+                        <button class="button aside__button button_type_transparent">
+                            <svg class="icon icon_type_button">
+                                <use
+                                        xlink:href="dist/images/icons/sprite.svg#icon-dashboard"
+                                ></use>
+                            </svg>
+                            <span class="button__text">Dashboard</span>
+                        </button>
+                    </li>
+                    <li class="navigation__item">
+                        <button class="button aside__button button_type_transparent">
+                            <svg class="icon icon_type_button">
+                                <use
+                                        xlink:href="dist/images/icons/sprite.svg#icon-customers"
+                                ></use>
+                            </svg>
+                            <span class="button__text">Customers</span>
+                        </button>
+                    </li>
+                    <li class="navigation__item">
+                        <button class="button aside__button button_type_transparent">
+                            <svg class="icon icon_type_button">
+                                <use
+                                        xlink:href="dist/images/icons/sprite.svg#icon-products"
+                                ></use>
+                            </svg>
+                            <span class="button__text">Products</span>
+                        </button>
+                    </li>
+                    <li class="navigation__item">
+                        <button class="button aside__button button_type_transparent">
+                            <svg class="icon icon_type_button">
+                                <use
+                                        xlink:href="dist/images/icons/sprite.svg#icon-account"
+                                ></use>
+                            </svg>
+                            <span class="button__text">Account</span>
+                        </button>
+                    </li>
+                    <li class="navigation__item">
+                        <button class="button aside__button button_type_transparent">
+                            <svg class="icon icon_type_button">
+                                <use
+                                        xlink:href="dist/images/icons/sprite.svg#icon-settings"
+                                ></use>
+                            </svg>
+                            <span class="button__text">Settings</span>
+                        </button>
+                    </li>
+                    <li class="navigation__item">
+                        <button class="button aside__button button_type_transparent">
+                            <svg class="icon icon_type_button">
+                                <use
+                                        xlink:href="dist/images/icons/sprite.svg#icon-login"
+                                ></use>
+                            </svg>
+                            <span class="button__text">Login</span>
+                        </button>
+                    </li>
+                    <li class="navigation__item">
+                        <button class="button aside__button button_type_transparent">
+                            <svg class="icon icon_type_button">
+                                <use
+                                        xlink:href="dist/images/icons/sprite.svg#icon-register"
+                                ></use>
+                            </svg>
+                            <span class="button__text">Register</span>
+                        </button>
+                    </li>
+                    <li class="navigation__item">
+                        <button class="button aside__button button_type_transparent">
+                            <svg class="icon icon_type_button icon_error">
+                                <use
+                                        xlink:href="dist/images/icons/sprite.svg#icon-error"
+                                ></use>
+                            </svg>
+                            <span class="button__text">Error</span>
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+            <div class="aside__offer">
+                <p class="aside__question">Need more features?</p>
+                <p class="aside__description">Check out our Pro solution.</p>
+                <button class="button aside__button-offer button_type_transparent">
+                    Buy Pro
+                    <svg class="icon aside__icon">
+                        <use
+                                xlink:href="dist/images/icons/sprite.svg#icon-button-link"
+                        ></use>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </aside>
+    <header class="header">
+        <nav class="header__right">
+            <ul class="header__list">
+                <li class="header__item">
+                    <a href="#" class="header__link">
+                        <svg class="icon icon_customers">
+                            <use
+                                    xlink:href="dist/images/icons/sprite.svg#icon-customers"
+                            ></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="header__item">
+                    <a href="#" class="header__link">
+                        <svg class="icon">
+                            <use xlink:href="dist/images/icons/sprite.svg#icon-ring"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+            <a href="#" class="header__avatar">
+                <img
+                        src="./dist/images/ava.jpg"
+                        alt="avatar"
+                        class="avatar"
+                />
+            </a>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="headline">
+            <h1 class="headline__title">Customers</h1>
+            <nav class="headline__navigation">
+                <ul class="headline__list">
+                    <li class="headline__item">
+                        <button class="button button_type_transparent">
+                            <svg class="icon icon_type_button">
+                                <use
+                                        xlink:href="dist/images/icons/sprite.svg#icon-button-import"
+                                ></use>
+                            </svg>
+                            Import
+                        </button>
+                    </li>
+                    <li class="headline__item">
+                        <button class="button button_type_transparent">
+                            <svg class="icon icon_type_button">
+                                <use
+                                        xlink:href="dist/images/icons/sprite.svg#icon-button-export"
+                                ></use>
+                            </svg>
+                            Export
+                        </button>
+                    </li>
+                    <li class="headline__item">
+                        <button class="button headline__button">Add Customers</button>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+        <section class="search__block">
+            <form class="form">
+                <fieldset class="fieldset">
+                    <legend class="legend">Search customer</legend>
+                    <button
+                            class="button button_type_submit button_type_transparent"
+                            type="submit"
+                    >
+                        <svg class="icon icon_type_button">
+                            <use
+                                    xlink:href="dist/images/icons/sprite.svg#icon-search"
+                            ></use>
+                        </svg>
+                    </button>
+                    <input type="text" class="input"/>
+                </fieldset>
+            </form>
+        </section>
+        <section class="orders">
+            <h2 class="orders__title">Latest Orders</h2>
+            <div class="table">
+                <ul class="table__list">
+                    <li class="table__item">
+                        <ul class="orders__table-list orders__table-list_title">
+                            <li class="orders__table-title-item">name</li>
+                            <li class="orders__table-title-item">email</li>
+                            <li class="orders__table-title-item">
+                                <svg
+                                        class="icon icon_type_button icon_arrow-down orders__icon"
+                                >
+                                    <use
+                                            xlink:href="dist/images/icons/sprite.svg#icon-arrow-down"
+                                    ></use>
+                                </svg>
+                                <span>location</span>
+                            </li>
+                            <li class="orders__table-title-item">phone</li>
+                            <li class="orders__table-title-item">registration date</li>
+                        </ul>
+                    </li>
+                    <li class="table__item">
+                        <ul class="orders__table-list">
+                            <li class="orders__table-item">
+                                <img
+                                        src="./dist/images/ava.jpg"
+                                        alt="Avatar"
+                                        class="avatar"
+                                />
+                                <p class="orders__table-name">Ekaterina Tankova</p>
+                            </li>
+                            <li class="orders__table-item">
+                                <p class="orders__table-text">
+                                    ekaterina.tankova@devias.io
+                                </p>
+                            </li>
+                            <li class="orders__table-item">
+                                <p class="orders__table-text">
+                                    Parkersburg, West Virginia, USA
+                                </p>
+                            </li>
+                            <li class="orders__table-item">
+                                <p class="orders__table-text">304-428-3097</p>
+                            </li>
+                            <li class="orders__table-item">
+                                <p class="orders__table-text">12/04/2019</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="table__item">
+                        <ul class="orders__table-list">
+                            <li class="orders__table-item">
+                                <img
+                                        src="./dist/images/ava.jpg"
+                                        alt="Avatar"
+                                        class="avatar"
+                                />
+                                <p class="orders__table-name">Ekaterina Tankova</p>
+                            </li>
+                            <li class="orders__table-item">
+                                <p class="orders__table-text">
+                                    ekaterina.tankova@devias.io
+                                </p>
+                            </li>
+                            <li class="orders__table-item">
+                                <p class="orders__table-text">
+                                    Parkersburg, West Virginia, USA
+                                </p>
+                            </li>
+                            <li class="orders__table-item">
+                                <p class="orders__table-text">304-428-3097</p>
+                            </li>
+                            <li class="orders__table-item">
+                                <p class="orders__table-text">12/04/2019</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="table__item">
+                        <ul class="orders__table-list">
+                            <li class="orders__table-item">
+                                <img
+                                        src="./dist/images/ava.jpg"
+                                        alt="Avatar"
+                                        class="avatar"
+                                />
+                                <p class="orders__table-name">Ekaterina Tankova</p>
+                            </li>
+                            <li class="orders__table-item">
+                                <p class="orders__table-text">
+                                    ekaterina.tankova@devias.io
+                                </p>
+                            </li>
+                            <li class="orders__table-item">
+                                <p class="orders__table-text">
+                                    Parkersburg, West Virginia, USA
+                                </p>
+                            </li>
+                            <li class="orders__table-item">
+                                <p class="orders__table-text">304-428-3097</p>
+                            </li>
+                            <li class="orders__table-item">
+                                <p class="orders__table-text">12/04/2019</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="table__item">
+                        <ul class="orders__table-list">
+                            <li class="orders__table-item">
+                                <img
+                                        src="./dist/images/ava.jpg"
+                                        alt="Avatar"
+                                        class="avatar"
+                                />
+                                <p class="orders__table-name">Ekaterina Tankova</p>
+                            </li>
+                            <li class="orders__table-item">
+                                <p class="orders__table-text">
+                                    ekaterina.tankova@devias.io
+                                </p>
+                            </li>
+                            <li class="orders__table-item">
+                                <p class="orders__table-text">
+                                    Parkersburg, West Virginia, USA
+                                </p>
+                            </li>
+                            <li class="orders__table-item">
+                                <p class="orders__table-text">304-428-3097</p>
+                            </li>
+                            <li class="orders__table-item">
+                                <p class="orders__table-text">12/04/2019</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="table__item">
+                        <ul class="orders__table-list">
+                            <li class="orders__table-item">
+                                <img
+                                        src="./dist/images/ava.jpg"
+                                        alt="Avatar"
+                                        class="avatar"
+                                />
+                                <p class="orders__table-name">Ekaterina Tankova</p>
+                            </li>
+                            <li class="orders__table-item">
+                                <p class="orders__table-text">
+                                    ekaterina.tankova@devias.io
+                                </p>
+                            </li>
+                            <li class="orders__table-item">
+                                <p class="orders__table-text">
+                                    Parkersburg, West Virginia, USA
+                                </p>
+                            </li>
+                            <li class="orders__table-item">
+                                <p class="orders__table-text">304-428-3097</p>
+                            </li>
+                            <li class="orders__table-item">
+                                <p class="orders__table-text">12/04/2019</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="table__item">
+                        <ul class="orders__table-list">
+                            <li class="orders__table-item">
+                                <img
+                                        src="./dist/images/ava.jpg"
+                                        alt="Avatar"
+                                        class="avatar"
+                                />
+                                <p class="orders__table-name">Ekaterina Tankova</p>
+                            </li>
+                            <li class="orders__table-item">
+                                <p class="orders__table-text">
+                                    ekaterina.tankova@devias.io
+                                </p>
+                            </li>
+                            <li class="orders__table-item">
+                                <p class="orders__table-text">
+                                    Parkersburg, West Virginia, USA
+                                </p>
+                            </li>
+                            <li class="orders__table-item">
+                                <p class="orders__table-text">304-428-3097</p>
+                            </li>
+                            <li class="orders__table-item">
+                                <p class="orders__table-text">12/04/2019</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="table__item orders__navigation">
+                        <p class="orders__page">Rows per page:</p>
+                        <p class="orders__page-number">10
+                            <svg class="icon icon_cursor-down orders__icon">
+                                <use
+                                        xlink:href="dist/images/icons/sprite.svg#icon-cursor-down"
+                                ></use>
+                            </svg>
+                        </p>
+                        <p class="orders__total-sheet">1-5 of 13</p>
+                        <button class="button button_type_transparent button_type_page">
+                            <svg class="icon icon_button-previous">
+                                <use
+                                        xlink:href="dist/images/icons/sprite.svg#icon-button-previous"
+                                ></use>
+                            </svg>
+                        </button>
+                        <button class="button button_type_transparent button_type_page button_type_reverse">
+                            <svg class="icon icon_button-previous">
+                                <use
+                                        xlink:href="dist/images/icons/sprite.svg#icon-button-previous"
+                                >
+
+                                </use>
+                            </svg>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="footer__title">&copy; Devias Io. 2021</p>
+        <p class="footer__description">
+            Material Kit Free version. For more features and components feel free to
+            check out the
+            <span class="footer__underline">pro version.</span>
+        </p>
+    </footer>
+</body>
+<script src="src/js/index.js"></script>
+</html>

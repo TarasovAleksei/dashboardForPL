@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "#{$font-family}";
+  font-weight: $font-weight-regular;
+  font-style: normal;
+  src: url("#{$font-path}/#{$font-family}-#{$font-Regular}.ttf");
+}
+
+@font-face {
+  font-family: "#{$font-family}";
+  font-weight: $font-weight-medium;
+  font-style: normal;
+  src: url("#{$font-path}/#{$font-family}-#{$font-Medium}.ttf");
+}
+
+@font-face {
+  font-family: "#{$font-family}";
+  font-weight: $font-weight-semi-bold;
+  font-style: normal;
+  src: url("#{$font-path}/#{$font-family}-#{$font-Semi-bold}.ttf");
+}
+
+@font-face {
+  font-family: "#{$font-family}";
+  font-weight: $font-weight-bold;
+  font-style: normal;
+  src: url("#{$font-path}/#{$font-family}-#{$font-Bold}.ttf");
+}

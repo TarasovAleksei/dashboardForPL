@@ -1,0 +1,44 @@
+.header {
+  min-height: 64px;
+  background-color: $color1;
+  @include flex-end;
+  box-shadow: 0 2px 4px rgba(31, 41, 55, 0.06),
+  0 4px 6px rgba(100, 116, 139, 0.12);
+  padding: 0 24px;
+
+  &__link {
+    color: $color7;
+    transition: $transition;
+
+    &:hover {
+      @include button-hover;
+    }
+  }
+
+  &__list {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    @include flex-end;
+  }
+
+  &__item {
+    list-style-type: none;
+    width: 40px;
+    height: 40px;
+    @include flex-center;
+    margin-right: 16px;
+  }
+
+  &__right {
+    @include flex-end;
+  }
+
+  &__avatar {
+    transition: $transition;
+
+    &:hover {
+      @include button-hover;
+    }
+  }
+}

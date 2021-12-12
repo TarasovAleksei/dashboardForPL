@@ -1,0 +1,33 @@
+.headline {
+  @include flex-center;
+  padding: 64px 24px 0;
+  &__title {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 137.5%;
+    color: $color3;
+    margin: 0;
+  }
+  &__navigation {
+    margin-left: auto;
+    display: flex;
+  }
+  &__button {
+    color: $color1;
+    background-color: $color4;
+    border-radius: 8px;
+    padding: 8px 20px;
+  }
+  &__list {
+    margin: 0;
+    padding: 0 0 3px 0;
+    display: flex;
+  }
+  &__item {
+    list-style-type: none;
+    margin-right: 8px;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}

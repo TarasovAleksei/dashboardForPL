@@ -1,0 +1,36 @@
+.button {
+  border: none;
+  padding: 8px 16px;
+  min-height: 40px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  @include flex-center;
+  &:hover {
+    @include button-hover;
+  }
+  &_type_transparent {
+    background-color: transparent;
+    color: $color4;
+  }
+  &_type_submit {
+    padding: 0;
+    min-height: unset;
+    color: $color7;
+  }
+  &_type_page {
+    padding: 0 18px;
+    min-height: unset;
+    color: $color7;
+  }
+  &_type_reverse {
+    transform: rotate(180deg);
+    padding-bottom: 1px;
+  }
+  &__text {
+    display: none;
+    @media #{$screen-desktop} {
+      display: block;
+    }
+  }
+}
