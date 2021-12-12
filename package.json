@@ -1,5 +1,6 @@
 {
     "name": "dashboard-perlab",
+    "homepage": "https://TarasovAleksei.github.io/dashboardForPL",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
@@ -7,7 +8,9 @@
         "develop": "webpack --env.mode=development --progress --watch",
         "build": "webpack --env.mode=production",
         "serve": "browser-sync start --server --files 'dist/css/*.css, **/*.html'",
-        "start": "run-p serve develop"
+        "start": "run-p serve develop",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build"
     },
     "author": "Alex",
     "license": "ISC",

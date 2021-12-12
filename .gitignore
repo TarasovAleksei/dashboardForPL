@@ -3,7 +3,3 @@
 /.pnp
 .pnp.js
 /.idea
-
-
-# Project exclude paths
-/dist/

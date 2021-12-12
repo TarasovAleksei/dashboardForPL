@@ -15,6 +15,7 @@ const filePath = {
     dist:  './dist/',
 };
 
+exports.deploy = deploy;
 const  createJSModule = () => ({
     test: /\.js$/,
     exclude: [/node_modules\/(?!(swiper|dom7|litepicker)\/).*/],
